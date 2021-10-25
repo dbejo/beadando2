@@ -1,7 +1,7 @@
 ﻿
 namespace beadando
 {
-    partial class Form1
+    partial class Form_Szoveg
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,17 @@ namespace beadando
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Form_Szoveg
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Name = "Form_Szoveg";
+            this.Text = "Szöveg";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
