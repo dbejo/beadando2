@@ -30,7 +30,7 @@ namespace beadando
         private void InitializeComponent()
         {
             this.button1_Switch = new System.Windows.Forms.Button();
-            this.button2_Szamol = new System.Windows.Forms.Button();
+            this.button1_Szamol = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.lbl_Ekezetek = new System.Windows.Forms.Label();
             this.lbl_Irasjel = new System.Windows.Forms.Label();
@@ -48,17 +48,17 @@ namespace beadando
             this.button1_Switch.Text = "Mátrixok";
             this.button1_Switch.UseVisualStyleBackColor = false;
             // 
-            // button2_Szamol
+            // button1_Szamol
             // 
-            this.button2_Szamol.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2_Szamol.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button2_Szamol.ForeColor = System.Drawing.Color.Firebrick;
-            this.button2_Szamol.Location = new System.Drawing.Point(150, 0);
-            this.button2_Szamol.Name = "button2_Szamol";
-            this.button2_Szamol.Size = new System.Drawing.Size(150, 50);
-            this.button2_Szamol.TabIndex = 1;
-            this.button2_Szamol.Text = "Számol";
-            this.button2_Szamol.UseVisualStyleBackColor = false;
+            this.button1_Szamol.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1_Szamol.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button1_Szamol.ForeColor = System.Drawing.Color.Firebrick;
+            this.button1_Szamol.Location = new System.Drawing.Point(150, 0);
+            this.button1_Szamol.Name = "button1_Szamol";
+            this.button1_Szamol.Size = new System.Drawing.Size(150, 50);
+            this.button1_Szamol.TabIndex = 1;
+            this.button1_Szamol.Text = "Számol";
+            this.button1_Szamol.UseVisualStyleBackColor = false;
             // 
             // richTextBox1
             // 
@@ -97,7 +97,7 @@ namespace beadando
             this.Controls.Add(this.lbl_Irasjel);
             this.Controls.Add(this.lbl_Ekezetek);
             this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.button2_Szamol);
+            this.Controls.Add(this.button1_Szamol);
             this.Controls.Add(this.button1_Switch);
             this.Name = "Form_Szoveg";
             this.Text = "Szöveg";
@@ -109,7 +109,7 @@ namespace beadando
         #endregion
 
         private System.Windows.Forms.Button button1_Switch;
-        private System.Windows.Forms.Button button2_Szamol;
+        private System.Windows.Forms.Button button1_Szamol;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label lbl_Ekezetek;
         private System.Windows.Forms.Label lbl_Irasjel;
