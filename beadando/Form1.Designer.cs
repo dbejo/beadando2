@@ -60,6 +60,7 @@ namespace beadando
             this.button1_Szamol.TabIndex = 1;
             this.button1_Szamol.Text = "Számol";
             this.button1_Szamol.UseVisualStyleBackColor = false;
+            this.button1_Szamol.Click += new System.EventHandler(this.button1_Szamol_Click);
             // 
             // richTextBox1
             // 
