@@ -47,6 +47,7 @@ namespace beadando
             this.button1_Switch.TabIndex = 0;
             this.button1_Switch.Text = "Mátrixok";
             this.button1_Switch.UseVisualStyleBackColor = false;
+            this.button1_Switch.Click += new System.EventHandler(this.button1_Switch_Click);
             // 
             // button1_Szamol
             // 

@@ -16,5 +16,12 @@ namespace beadando
         {
             InitializeComponent();
         }
+
+        private void button1_Switch_Click(object sender, EventArgs e)
+        {
+            Form_Matrix myNewForm = new Form_Matrix();
+            myNewForm.Show();
+            this.Hide();
+        }
     }
 }

@@ -19,7 +19,9 @@ namespace beadando
 
         private void button1_Switch_Click(object sender, EventArgs e)
         {
-
+            Form_Szoveg myNewForm = new Form_Szoveg();
+            myNewForm.Show();
+            this.Hide();
         }
 
         private void button2_Szamol_Click(object sender, EventArgs e)
