@@ -43,6 +43,14 @@ namespace beadando
             {
                 MessageBox.Show("Írj be valamilyen szöveget.");
             }
+                if (szoveg.Contains('.') || szoveg.Contains('?') || szoveg.Contains('!'))
+                {
+                    lbl_Irasjel.Text = "A szövegben van mondatvégi írásjel.";
+                }
+                else
+                {
+                    lbl_Irasjel.Text = "A szövegben nincs mondatvégi írásjel.";
+                }
         }
     }
 }
