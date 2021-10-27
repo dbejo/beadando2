@@ -79,9 +79,19 @@ namespace beadando
             // numericUpDown_oszlopok
             // 
             this.numericUpDown_oszlopok.Location = new System.Drawing.Point(210, 59);
+            this.numericUpDown_oszlopok.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_oszlopok.Name = "numericUpDown_oszlopok";
             this.numericUpDown_oszlopok.Size = new System.Drawing.Size(120, 26);
             this.numericUpDown_oszlopok.TabIndex = 5;
+            this.numericUpDown_oszlopok.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // lbl_Oszlop1
             // 
