@@ -26,7 +26,8 @@ namespace beadando
 
         private void button2_Szamol_Click(object sender, EventArgs e)
         {
-
+            
+         
         }
     }
 }
