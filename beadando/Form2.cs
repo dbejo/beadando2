@@ -26,8 +26,15 @@ namespace beadando
 
         private void button2_Szamol_Click(object sender, EventArgs e)
         {
-            
-         
+            lbl_Oszlop1.Text = "";
+            Random rnd = new Random();
+            int oszlopszam = Decimal.ToInt32(numericUpDown_oszlopok.Value);
+            int i = 1;
+            while (i <= oszlopszam)
+            {
+                lbl_Oszlop1.Text += $" {rnd.Next(1,100)}";
+                i++;
+            }
         }
     }
 }
