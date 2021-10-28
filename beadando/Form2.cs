@@ -27,12 +27,19 @@ namespace beadando
         private void button2_Szamol_Click(object sender, EventArgs e)
         {
             lbl_Oszlop1.Text = "";
+            lbl_Oszlop2.Text = "";
+            lbl_Oszlop3.Text = "";
+            lbl_Oszlop4.Text = "";
             Random rnd = new Random();
             int oszlopszam = Decimal.ToInt32(numericUpDown_oszlopok.Value);
             int i = 1;
             while (i <= oszlopszam)
             {
-                lbl_Oszlop1.Text += $" {rnd.Next(1,100)}";
+                // kétszámjegyű számokat írtattam ki, hogy jól nézzen ki a mátrix
+                lbl_Oszlop1.Text += $" {rnd.Next(10 , 100)}";
+                lbl_Oszlop2.Text += $" {rnd.Next(10 , 100)}";
+                lbl_Oszlop3.Text += $" {rnd.Next(10 , 100)}";
+                lbl_Oszlop4.Text += $" {rnd.Next(10 , 100)}";
                 i++;
             }
         }

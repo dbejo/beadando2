@@ -107,7 +107,7 @@ namespace beadando
             // 
             this.lbl_Oszlop2.AutoSize = true;
             this.lbl_Oszlop2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.lbl_Oszlop2.Location = new System.Drawing.Point(13, 217);
+            this.lbl_Oszlop2.Location = new System.Drawing.Point(13, 170);
             this.lbl_Oszlop2.Name = "lbl_Oszlop2";
             this.lbl_Oszlop2.Size = new System.Drawing.Size(162, 26);
             this.lbl_Oszlop2.TabIndex = 7;
@@ -117,7 +117,7 @@ namespace beadando
             // 
             this.lbl_Oszlop3.AutoSize = true;
             this.lbl_Oszlop3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.lbl_Oszlop3.Location = new System.Drawing.Point(13, 292);
+            this.lbl_Oszlop3.Location = new System.Drawing.Point(13, 198);
             this.lbl_Oszlop3.Name = "lbl_Oszlop3";
             this.lbl_Oszlop3.Size = new System.Drawing.Size(175, 26);
             this.lbl_Oszlop3.TabIndex = 8;
@@ -127,7 +127,7 @@ namespace beadando
             // 
             this.lbl_Oszlop4.AutoSize = true;
             this.lbl_Oszlop4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.lbl_Oszlop4.Location = new System.Drawing.Point(13, 367);
+            this.lbl_Oszlop4.Location = new System.Drawing.Point(13, 226);
             this.lbl_Oszlop4.Name = "lbl_Oszlop4";
             this.lbl_Oszlop4.Size = new System.Drawing.Size(172, 26);
             this.lbl_Oszlop4.TabIndex = 9;
